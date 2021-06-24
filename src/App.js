@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import 'antd/dist/antd.css'
+import HeaderView from './MovieComponent/Header/Header'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Screen from './MovieComponent/Screen';
+import AllCart from './MovieComponent/TotalCart/AllCart';
+import Footer from './MovieComponent/Footer/Footer'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <Router>
+        <HeaderView />
+        <Switch>
+          <Route path="/cart" exact component={AllCart} />
+          <Route path="/" exact component={Screen} />
+        </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 }

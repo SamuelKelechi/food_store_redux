@@ -1,0 +1,68 @@
+.First_Slide {
+    display:"flex";
+    justify-content:flex-end;
+    height: 550px;
+    background-image: url(../Images/First.jpg);
+    background-position: center;
+    object-fit:fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    color: white;
+    border-radius: 0 0 40px 40px;
+}
+
+.Second_Slide {
+    height: 550px;
+    background-image: url(../Images/New.jpeg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8; 
+    color: white;
+    border-radius: 0 0 40px 40px;
+}
+
+.Third_Slide {
+    height: 550px;
+    background-image: url(../Images/Third.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8; 
+    color: white;
+    border-radius: 0 0 40px 40px;
+}
+
+.Fourth_Slide {
+    height: 550px;
+    background-image: url(../Images/Four.jpg);
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8; 
+    color: white;
+    border-radius: 0 0 40px 40px;
+}
+
+@media screen and (max-width: 650px) {
+    .First_Slide {
+        height: 350px;
+    }
+
+    .Second_Slide {
+        height: 350px;
+    }
+
+    .Third_Slide {
+        height: 350px;
+    }
+
+    .Fourth_Slide {
+        height: 350px;
+    }
+
+}

@@ -1,0 +1,68 @@
+.Card_Container {
+    margin: 10px;
+}
+
+.Card_Wrapper {
+    width: 300px;
+    background-color: lightgrey;
+    padding-bottom: 8px;
+    border-radius: 5px 5px 8px 8px;
+    margin:5px;
+    box-shadow: 5px 8px #888888;
+
+}
+
+.Image_Wrapper {
+    height: 250px;
+    background-color: brown;
+    border-radius: 5px 5px 8px 8px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Image_Wrapper > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px 5px 8px 8px;
+}
+
+.Price_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -30px;
+    margin-left: 8px;
+    font-weight: bolder;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 1px solid red;
+    background-color: darkgrey;
+}
+
+.Title_Wrapper {
+    margin-left: 8px;
+}
+
+.Button_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 8px;
+}
+
+.HomeCard_Button {
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.HomeCard_Button:hover {
+    background-color: rgb(47, 196, 47);
+}

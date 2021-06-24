@@ -1,0 +1,24 @@
+.Header_Main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+}
+
+.Head_Container {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 650px) {
+    .Head_Container {
+        display: none;
+    }
+}
