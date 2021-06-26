@@ -7,7 +7,7 @@
     object-fit:fill;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.8;
+    opacity: 0.6;
     color: white;
     border-radius: 0 0 40px 40px;
 }
@@ -19,7 +19,7 @@
     object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.8; 
+    opacity: 0.6; 
     color: white;
     border-radius: 0 0 40px 40px;
 }
@@ -31,7 +31,7 @@
     object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.8; 
+    opacity: 0.6; 
     color: white;
     border-radius: 0 0 40px 40px;
 }
@@ -43,7 +43,7 @@
     object-fit: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.8; 
+    opacity: 0.6; 
     color: white;
     border-radius: 0 0 40px 40px;
 }
