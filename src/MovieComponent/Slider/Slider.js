@@ -11,16 +11,16 @@ function Slider() {
             <Carousel autoplay>
 
                 <div className="First_Slide">
-                    
+                   <div> 1</div>
                 </div>
                 <div className="Second_Slide">
-                   
+                    <div> 2</div>
                 </div>
                 <div className="Third_Slide">
-                   
+                    <div> 3</div>
                 </div>
                 <div className="Fourth_Slide">
-                   
+                   <div> 4</div>
                 </div>
 
             </Carousel>     

@@ -25,8 +25,9 @@ const Head = () => {
 
             <Link to="/" style={{color:"white"}}>
                 <div><img src={Logo} alt="Logo" style={{
-                    height:"70px",
-                    width:"80px"
+                    height:"60px",
+                    width:"70px",
+                    marging:"5px"
                 }} /></div>
             </Link>
             

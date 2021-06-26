@@ -54,7 +54,7 @@
 }
 
 .HomeCard_Button {
-    background-color: green;
+    background-color: rgb(47, 187, 47);
     border-radius: 5px;
     border: none;
     width: 100px;
@@ -64,5 +64,5 @@
 }
 
 .HomeCard_Button:hover {
-    background-color: rgb(47, 196, 47);
+    background-color: rgb(67, 233, 67);
 }
